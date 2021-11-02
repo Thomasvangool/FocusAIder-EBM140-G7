@@ -106,7 +106,7 @@ while True:
 # Release the memoryq
 cap.release()
 cv2.destroyAllWindows()
-
+#end report
 report_canvas = np.ones((1000, 1000, 3))*255
 emotion2 = np.zeros(6)
 rleft = 0
